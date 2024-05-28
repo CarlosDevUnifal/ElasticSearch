@@ -12,8 +12,8 @@ export default function Home() {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await fetch(`/api?query=${searchQuery}`);
-      const data = await response.json();
+      // const response = await fetch(`/api?query=${searchQuery}`);
+      // const data = await response.json();
       // redirect to search page
     } catch (error) {
       console.error("Error searching:", error);
